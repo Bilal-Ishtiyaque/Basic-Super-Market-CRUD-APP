@@ -1,0 +1,16 @@
+﻿
+
+@section title{    
+<h1>Home</h1>
+}
+
+    <ul>
+        <li>
+            @* <a asp-controller="categories" asp-action="edit" asp-route-id="1">@Model.Name</a> *@
+            <a href="/categories/edit/1">Beverage</a>
+        </li>
+        <li>
+            <a href="/categories/edit/2">Meat</a>
+            @* <a asp-controller="categories" asp-action="edit" asp-route-id="2">@Model.Name</a> *@
+        </li>
+    </ul>
